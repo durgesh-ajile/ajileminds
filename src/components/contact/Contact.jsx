@@ -27,11 +27,11 @@ const Contact = () => {
           <BsWhatsapp className="contact__option-icon" />
           <h4>Whatsapp</h4>
           <h5>+91 8851976742</h5>
-          <a href="https://api.whatsapp.com/send?phone=8851976742&text=Hello" target="_blank">Send a message</a>
+          <a href="https://api.whatsapp.com/send?phone=+918851976742&text=Hello" target="_blank">Send a message</a>
         </article>
       </div>
 
-      <form action="mailto:anish21@ajiledone.com">
+      <form action="mailto:sahil.mahajan@ajiledone.com">
         <input type="text" name="name" placeholder="Your Full Name" required />
         <input type="email" name="email" placeholder="Your Email" required />
         <textarea name="message" rows="7" placeholder="Your Message" required></textarea>
